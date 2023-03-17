@@ -1,0 +1,167 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+h1,h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 15%;
+}
+
+/* headings */
+.big-heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* navigation */
+.navbar{
+    padding: 0 0  4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+   font-size: 1.2rem; 
+   font-family: "montserrat-light";
+}
+
+/* download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+
+}
+.download-button2{
+    margin: 5% 3% 5% 3%;
+
+}
+
+/* image tittle */
+.iphonepng{
+    transform:rotate(25deg) ;
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 991px){
+    #title{
+        text-align: center;
+    }
+    .iphonepng{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* features */
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+
+.features-box{
+    padding: 4.5%;
+}
+.icons{
+    color: #ef8172;
+    font-size: 5rem;
+}
+
+.features-title{
+    margin-top: 3%;
+    font-family: "montserrat",sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.features-description{
+    color: #8f8f8f;
+}
+
+.icon2:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* footer */
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+.cta-tittle{
+    font-family: 'montserrat',sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icons{
+    margin: 20px 10px;
+}
